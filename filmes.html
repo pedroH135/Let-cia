@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Filmes Assistidos</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #fff0f5;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #cc0066;
+      margin-bottom: 30px;
+    }
+
+    .filmes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .filme {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 10px;
+    }
+
+    .filme img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .titulo {
+      font-weight: bold;
+      margin: 10px 0 5px;
+      font-size: 1.1em;
+    }
+
+    .notas {
+      font-size: 0.9em;
+    }
+
+    a {
+      display: block;
+      margin-top: 30px;
+      color: #cc0066;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎬 Filmes que assistimos juntos</h1>
+
+  <div class="filmes">
+    <div class="filme">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/25/Final_Destination_poster.jpg" alt="Premonição 1">
+      <div class="titulo">Premonição 1</div>
+      <div class="notas">Pedro: 3 / 5<br>Letícia: —</div>
+    </div>
+
+    <div class="filme">
+      <img src="https://m.media-amazon.com/images/M/MV5BMjMyZWFjZGQtNjA4My00ZThhLWFjNjQtMDVhODZhMDNlMjA4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" alt="Como Treinar seu Dragão (live action)">
+      <div class="titulo">Como Treinar seu Dragão (live action)</div>
+      <div class="notas">Pedro: 4.5 / 5<br>Letícia: —</div>
+    </div>
+
+    <div class="filme">
+      <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/Howls-moving-castleposter.jpg" alt="Castelo Animado">
+      <div class="titulo">Castelo Animado</div>
+      <div class="notas">Pedro: 4 / 5<br>Letícia: —</div>
+    </div>
+
+    <div class="filme">
+      <img src="https://upload.wikimedia.org/wikipedia/en/e/e3/About_Time_poster.jpg" alt="Questão de Tempo">
+      <div class="titulo">Questão de Tempo</div>
+      <div class="notas">Pedro: 3.5 / 5<br>Letícia: —</div>
+    </div>
+
+    <div class="filme">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Superman_Legacy_teaser_poster.jpg" alt="Superman (mais recente)">
+      <div class="titulo">Superman (mais recente)</div>
+      <div class="notas">Pedro: 4.5 / 5<br>Letícia: —</div>
+    </div>
+  </div>
+
+  <a href="index.html">⬅ Voltar</a>
+</body>
+</html>
